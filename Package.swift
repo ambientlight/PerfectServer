@@ -26,7 +26,7 @@ let package = Package(
 	         	Target(name: "perfectserverfcgi")
 	],
 	dependencies: [
-	              	.Package(url:"https://github.com/ambientlight/Perfect.git", Version(0,11,2)),
-	              	.Package(url:"https://github.com/ambientlight/PerfectHandlers.git", Version(0,1,2))
+	              	.Package(url:"https://github.com/ambientlight/Perfect.git", Version(0,12,3)),
+	              	.Package(url:"https://github.com/ambientlight/PerfectHandlers.git", Version(0,2,0))
 	]
 )

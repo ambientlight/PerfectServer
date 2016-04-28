@@ -59,5 +59,5 @@ func startServer() throws {
     PerfectHandlers.registerRoutes()
     
 	let fastCgiServer = FastCGIServer()
-	try fastCgiServer.start(sockPath)
+    try fastCgiServer.start(namedPipe: sockPath)
 }

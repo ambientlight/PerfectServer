@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8020001CD1D5E400C23C5D /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A801FFF1CD1D5E400C23C5D /* PerfectLib.framework */; };
+		1A8020011CD1D5E700C23C5D /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A801FFF1CD1D5E400C23C5D /* PerfectLib.framework */; };
+		1A8020031CD1D5F300C23C5D /* PerfectHandlers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8020021CD1D5F300C23C5D /* PerfectHandlers.framework */; };
+		1A8020041CD1D5F700C23C5D /* PerfectHandlers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8020021CD1D5F300C23C5D /* PerfectHandlers.framework */; };
 		F80C63FA1CC15AC00002F3C9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63F81CC15AC00002F3C9 /* main.swift */; };
 		F80C63FE1CC15ACC0002F3C9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63FC1CC15ACC0002F3C9 /* main.swift */; };
-		F80D5B6D1CC871530025AD97 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80D5B6C1CC871530025AD97 /* PerfectLib.framework */; };
-		F80D5B6E1CC871680025AD97 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80D5B6C1CC871530025AD97 /* PerfectLib.framework */; };
 		F80D5B6F1CC871CE0025AD97 /* main_http.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63FB1CC15ACC0002F3C9 /* main_http.swift */; };
 		F80D5B701CC871D20025AD97 /* main_fcgi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63F71CC15AC00002F3C9 /* main_fcgi.swift */; };
 /* End PBXBuildFile section */
@@ -37,11 +39,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A801FFF1CD1D5E400C23C5D /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/NewWorkspace-echarhvtzwfhzqbagdqrbndapidf/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
+		1A8020021CD1D5F300C23C5D /* PerfectHandlers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectHandlers.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/NewWorkspace-echarhvtzwfhzqbagdqrbndapidf/Build/Products/Debug/PerfectHandlers.framework"; sourceTree = "<group>"; };
 		F80C63F71CC15AC00002F3C9 /* main_fcgi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_fcgi.swift; path = ../../Sources/perfectserverfcgi/main_fcgi.swift; sourceTree = "<group>"; };
 		F80C63F81CC15AC00002F3C9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../Sources/perfectserverfcgi/main.swift; sourceTree = "<group>"; };
 		F80C63FB1CC15ACC0002F3C9 /* main_http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_http.swift; path = ../../Sources/perfectserverhttp/main_http.swift; sourceTree = "<group>"; };
 		F80C63FC1CC15ACC0002F3C9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../Sources/perfectserverhttp/main.swift; sourceTree = "<group>"; };
-		F80D5B6C1CC871530025AD97 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Perfect-aqyqkcamromvnnennplcqudglcko/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
 		F842421B1BD966FC001EFF66 /* perfectserverfcgi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfectserverfcgi; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E752DF1BDA8A7600BFC36A /* perfectserverhttp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfectserverhttp; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -51,7 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80D5B6E1CC871680025AD97 /* PerfectLib.framework in Frameworks */,
+				1A8020031CD1D5F300C23C5D /* PerfectHandlers.framework in Frameworks */,
+				1A8020011CD1D5E700C23C5D /* PerfectLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80D5B6D1CC871530025AD97 /* PerfectLib.framework in Frameworks */,
+				1A8020041CD1D5F700C23C5D /* PerfectHandlers.framework in Frameworks */,
+				1A8020001CD1D5E400C23C5D /* PerfectLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +93,8 @@
 		F84242271BD96767001EFF66 /* Linked */ = {
 			isa = PBXGroup;
 			children = (
-				F80D5B6C1CC871530025AD97 /* PerfectLib.framework */,
+				1A8020021CD1D5F300C23C5D /* PerfectHandlers.framework */,
+				1A801FFF1CD1D5E400C23C5D /* PerfectLib.framework */,
 			);
 			name = Linked;
 			sourceTree = "<group>";

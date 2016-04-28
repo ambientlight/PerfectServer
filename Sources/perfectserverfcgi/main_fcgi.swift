@@ -18,6 +18,7 @@
 //
 
 import PerfectLib
+import PerfectHandlers
 #if os(Linux)
 	import SwiftGlibc
 #else
@@ -54,6 +55,8 @@ func startServer() throws {
 	}
     
     ls.initializeServices()
+    //explicitly link to PerfectHandlers (to simplify building with SPM)
+    PerfectHandlers.registerRoutes()
     
 	let fastCgiServer = FastCGIServer()
 	try fastCgiServer.start(sockPath)
